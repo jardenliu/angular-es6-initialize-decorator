@@ -1,8 +1,5 @@
-function functionName(w) {
-  function ngInitialize(target) {
-    target.prototype.initialize = function(args) {
-      angular && angular.forEach(args, (arg, i) => this[target.$inject[i]] = arg);
-    };
+module.exports = function ngInitialize(target) {
+  target.prototype.initialize = function(args) {
+    angular && angular.forEach(args, (arg, i) => this[target.$inject[i]] = arg);
   };
-  w.ngInitialize = ngInitialize;
-}(window);
+}
