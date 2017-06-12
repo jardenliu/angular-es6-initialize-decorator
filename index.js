@@ -1,2 +1,1 @@
-const angularInitialize= require('./angular-initialize');
-module.exports = angularInitialize;
+module.exports = require('./angular-initialize');
