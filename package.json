@@ -1,0 +1,20 @@
+{
+  "name": "angular-initialize",
+  "version": "1.0.0",
+  "description": "angular es6 initialize",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://172.18.8.50/dependency/angular-initialize.git"
+  },
+  "keywords": [
+    "angular",
+    "init",
+    "es6"
+  ],
+  "author": "liujunjiang",
+  "license": "MIT"
+}
